@@ -1,7 +1,12 @@
 # Integração Supabase + Z-API
 
-Projeto em Python que automatiza o envio de mensagens no WhatsApp via Z-API, lendo os contatos armazenados em um banco de dados no Supabase.
+Projeto em Python que lê até 3 contatos cadastrados no Supabase usando os campos `nome` e `telefone` e envia uma mensagem personalizada no WhatsApp via Z-API.
 
+## Mensagem enviada
+
+A mensagem enviada segue o formato exigido no desafio:
+
+"Olá, <nome_contato> tudo bem com você?"
 
 ## Tecnologias Usadas
 
@@ -27,14 +32,14 @@ insert into contatos (nome, telefone) values
 ('Pedro', '5511988888888');
 ```
 
-**Importante sobre o telefone:** O telefone na tabela deve conter apenas números e seguir obrigatoriamente o formato internacional: DDI + DDD + número. Exemplo para o Brasil: `5513999999999`.
+**Aviso sobre o telefone:** O telefone na tabela deve conter apenas números e seguir obrigatoriamente o formato internacional: DDI + DDD + número. Exemplo para o Brasil: `5513999999999`.
 
 ## Instalação e Execução
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-   cd SEU_REPOSITORIO
+   git clone https://github.com/BrunoramosXX/supabase-zapi.git
+   cd supabase-zapi
    ```
 
 2. **Crie e ative um ambiente virtual:**
