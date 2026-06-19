@@ -2,7 +2,6 @@
 
 Projeto em Python que automatiza o envio de mensagens no WhatsApp via Z-API, lendo os contatos armazenados em um banco de dados no Supabase.
 
-> **⚠️ Atenção de Segurança:** O arquivo `.env` nunca deve ser enviado para o GitHub. Se você acidentalmente subiu chaves reais no seu repositório público, revogue-as imediatamente no painel do Supabase e da Z-API e gere novas credenciais.
 
 ## Tecnologias Usadas
 
